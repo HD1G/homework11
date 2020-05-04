@@ -9,7 +9,7 @@ class Store {
   constructor() {
     this.lastId = 0;
   }
-//fixed paths 
+//fixed db.json paths 
   read() {
     return readFileAsync("db/db.json", "utf8");
   }
